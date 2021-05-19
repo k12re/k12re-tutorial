@@ -35,3 +35,7 @@ html {
     display: block;
     margin: 0 auto;
   }
+
+  button {
+    color: white;
+    border: 2px
