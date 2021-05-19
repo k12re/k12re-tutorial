@@ -2,10 +2,10 @@ let myImage = document.querySelector('img');
 
 myImage.onclick = function() {
     let mySrc = myImage.getAttribute('src');
-    if (mySrc === 'images/image.png') {
-        myImage.setAttribute('src','images/image2.png');
+    if (mySrc === 'image.png') {
+        myImage.setAttribute('src','image2.png');
     }   else {
-        myImage.setAttribute('src','images/Image.png');
+        myImage.setAttribute('src','Image.png');
     }
 }
 let myButton = document.querySelector('button');
