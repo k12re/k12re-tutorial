@@ -5,7 +5,7 @@ myImage.onclick = function() {
     if (mySrc === 'image.png') {
         myImage.setAttribute('src','image2.png');
     }   else {
-        myImage.setAttribute('src','Image.png');
+        myImage.setAttribute('src','image.png');
     }
 }
 let myButton = document.querySelector('button');
